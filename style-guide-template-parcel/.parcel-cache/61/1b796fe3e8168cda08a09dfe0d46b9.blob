@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Merriweather" rel="stylesheet" type="text/css"> <!--We'll change this link to whatever fonts we decide on-->
+
+    <link rel="stylesheet" href="/index.HASH_REF_0d8524a15cd50b7f068fb1cefd58574d.css">
+    <!-- Resource style -->
+    <script src="/index.HASH_REF_d1d6d1f9d6c205aa98cd1216aaafe13f.js"></script>
+    <!-- Modernizr -->
+    <title>Style Guide | CodyHouse</title>
+  </head>
+  <body>
+    <header>
+      <div class="cd-logo"><img src="/logo.HASH_REF_e9bef47016e29016e411f31c272a18c5.svg" alt="Logo"></div>
+
+      <nav>
+        <ul class="cd-main-nav">
+          <li><a href="#branding">Branding</a></li>
+          <li><a href="#colors">Colors</a></li>
+          <li><a href="#typography">Typography</a></li>
+          <li><a href="#buttons">Buttons</a></li>
+          <li><a href="#icons">icons</a></li>
+          <li><a href="#form">Form</a></li>
+          <li><a href="#navigation">Navigation</a></li>
+        </ul>
+        <!-- cd-main-nav -->
+      </nav>
+
+      <a href="/assets/assets-download-file.zip" class="cd-download"><span>Download assets</span></a>
+      <a href="#0" class="cd-nav-trigger">Menu<span></span></a>
+    </header>
+
+    <main>
+      <h1>Style Guide 1.0</h1>
+
+      <section id="purpose" class="cd-purpose">
+        <h2>Purpose/Theme</h2>
+
+        <div class="cd-box"><p>Add description of purpose/theme here.</p></div>
+      </section>
+
+      <section id="branding" class="cd-branding"><!--Can be removed or edited; won't be using branding, but we MAY be using images-->
+        <h2>Branding</h2>
+
+        <ul>
+          <li class="cd-box">
+            <img src="/logo-ver-1.HASH_REF_c7ae132189b9f66f1d4670d26d6fa671.jpg" alt="Logo version 1">
+          </li>
+          <li class="cd-box">
+            <img src="/logo-ver-2.HASH_REF_019ee1b5b140ff3e2052d458ab867eea.jpg" alt="Logo version 2">
+          </li>
+        </ul>
+
+        <ul>
+          <li>
+            <img src="/touch-icon-1.HASH_REF_e12ebda1963574d3bfe92694f2c015bb.jpg" alt="Touch Icon 1">
+          </li>
+          <li>
+            <img src="/touch-icon-2.HASH_REF_2d6ce8e8d7e66236180526933c99b21c.jpg" alt="Touch Icon 2">
+          </li>
+          <li><img src="/favicon-1.HASH_REF_683b91caa2027178adbbb8a67de86ebc.jpg" alt="Favicon 1"></li>
+          <li><img src="/favicon-2.HASH_REF_5c846f0942b0468ac61e965158cfd2f7.jpg" alt="Favicon 2"></li>
+        </ul>
+      </section>
+
+      <section id="colors" class="cd-colors">
+        <h2>Colors</h2>
+
+        <ul>
+          <li class="cd-box"><div class="cd-color-swatch"></div></li>
+
+          <li class="cd-box"><div class="cd-color-swatch"></div></li>
+
+          <li class="cd-box"><div class="cd-color-swatch"></div></li>
+
+          <li class="cd-box"><div class="cd-color-swatch"></div></li>
+
+          <li class="cd-box"><div class="cd-color-swatch"></div></li>
+        </ul>
+      </section>
+
+      <section id="typography" class="cd-typography">
+        <h2>Typography</h2>
+
+        <div class="cd-box">
+          <h1>Heading, <span></span></h1>
+          <p>
+            Aa - <span></span>. Lorem ipsum dolor sit amet, consectetur
+            adipisicing elit. Omnis voluptate distinctio reprehenderit, autem
+            deleniti ad <a href="#0">voluptatum eaque</a>. Optio ea aperiam nisi
+            distinctio nemo repellat, voluptate fugiat. Quidem neque illum,
+            blanditiis!
+          </p>
+        </div>
+      </section>
+
+      <section id="buttons" class="cd-buttons">
+        <h2>Buttons</h2>
+
+        <div class="cd-box">
+          <button class="btn">Normal</button>
+          <button class="btn btn-success">Success</button>
+          <button class="btn btn-alert">Alert</button>
+          <button class="btn btn-outline">Outline</button>
+        </div>
+      </section>
+
+      <section id="icons" class="cd-icons"> <!--Any icons you want to use? What for?-->
+        <h2>Icons</h2>
+
+        <ul class="cd-box">
+          <li class="cd-icon-1"></li>
+          <li class="cd-icon-2"></li>
+          <li class="cd-icon-3"></li>
+          <li class="cd-icon-4"></li>
+          <li class="cd-icon-5"></li>
+          <li class="cd-icon-6"></li>
+          <li class="cd-icon-7"></li>
+          <li class="cd-icon-8"></li>
+        </ul>
+      </section>
+
+      <section id="form" class="cd-form">
+        <h2>Form</h2>
+
+        <div class="cd-box">
+          <form>
+            <fieldset>
+              <input type="text"> <input class="success" type="text">
+              <input class="alert" type="text">
+            </fieldset>
+
+            <fieldset>
+              <div class="cd-input-wrapper">
+                <input type="radio" name="radioButton" id="radio1">
+                <label class="radio-label" for="radio1">Choice 1</label>
+              </div>
+
+              <div class="cd-input-wrapper">
+                <input type="checkbox" id="checkbox1">
+                <label class="checkbox-label" for="checkbox1">Option 1</label>
+              </div>
+
+              <div class="cd-input-wrapper cd-select">
+                <select name="select-this" id="select-this">
+                  <option value="0">Select</option>
+                  <option value="1">Option 1</option>
+                  <option value="2">Option 2</option>
+                  <option value="2">Option 3</option>
+                </select>
+              </div>
+            </fieldset>
+          </form>
+        </div>
+      </section>
+      <section id="navigation" class="cd-navigation">
+        <h2>Navigation</h2>
+        <div class="cd-box">
+          <div>
+            <h3>Primary</h3>
+            <nav class="cd-primary-nav">
+              <ul>
+                <li><a href="#">One</a></li>
+                <li><a href="#">Two</a></li>
+                <li><a href="#">Three</a></li>
+                <li><a href="#">Four</a></li>
+                <li><a href="#">Five</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div>
+            <h3>Secondary</h3>
+            <nav class="cd-secondary-nav">
+              <ul>
+                <li><a href="#">One</a></li>
+                <li><a href="#">Two</a></li>
+                <li><a href="#">Three</a></li>
+                <li><a href="#">Four</a></li>
+                <li><a href="#">Five</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div>
+            <h3>Other Links</h3>
+            <ul>
+              <li><a href="#">One</a></li>
+              <li><a href="#">Two</a></li>
+              <li><a href="#">Three</a></li>
+              <li><a href="#">Four</a></li>
+              <li><a href="#">Five</a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="elements" class="cd-elements">
+        <h2>HTML Elements</h2>
+        <div class="cd-box">
+          <p>
+            Styling for lists, figures, alerts, info boxes, etc can be defined
+            here.
+          </p>
+        </div>
+      </section>
+
+      <section id="wireframes" class="cd-wireframes">
+        <h2>Wireframes</h2>
+        <div class="cd-box">
+          <figure>
+            <img src="/wireframe-sm.HASH_REF_ac91db0b48bfc74e4afceba1a947136d.jpg" alt="Small screen wireframe">
+            <figcaption>Small screen</figcaption>
+          </figure>
+          <figure>
+            <img src="/wireframe-lg.HASH_REF_01ed2c3781e72551a418c55848da39ca.jpg" alt="Large screen wireframe">
+            <figcaption>Large screen</figcaption>
+          </figure>
+        </div>
+      </section>
+    </main>
+
+    <script src="/index.HASH_REF_9c44180a18ad66eda0f30d699626f0bb.js"></script>
+  </body>
+</html>
