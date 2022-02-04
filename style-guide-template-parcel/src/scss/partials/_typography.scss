@@ -1,0 +1,20 @@
+// fonts
+$primary-font: 'EB Garamond',
+serif; //this is the body font. Want it to be serif or sans-serif? I tend to prefer sans-serif.
+$secondary-font: 'Arsenal',
+sans-serif; //this is the headline font. It needs to contrast well with the primary font.
+
+/* -------------------------------- 
+
+xBackground 
+
+-------------------------------- */
+h1,
+h2 {
+    font-family: $secondary-font;
+}
+h1 {
+    font-size: 2.4rem;
+    font-weight: 300;
+    line-height: 1.5;
+}

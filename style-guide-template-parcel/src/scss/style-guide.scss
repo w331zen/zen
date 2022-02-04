@@ -1,29 +1,17 @@
 @import 'partials/reset';
 @import 'partials/prefix-mixins';
 @import 'partials/layout'; // responsive grid and media queries
-
+@import 'partials/typography';
+@import 'partials/color'
+@import 'partials/nav'
 // color palette - these colors will be the color swatches of the Colors section
 
-$color-1: #000000; // black
-$color-2: #082d52; // Dark Blue
-$color-3: #b13df5; // pale purple
-$color-4: #ffffff; // white
-$color-5: #ffec70; // light yellow
 
 // additional colors
 
 $success: #6fce72; // green
 $alert: $color-3; // red
 
-// fonts
-$primary-font: 'EB Garamond', serif; //this is the body font. Want it to be serif or sans-serif? I tend to prefer sans-serif.
-$secondary-font: 'Arsenal', sans-serif; //this is the headline font. It needs to contrast well with the primary font.
-
-/* -------------------------------- 
-
-xBackground 
-
--------------------------------- */
 
 body {
   /* this is the page background */
@@ -90,35 +78,7 @@ header {
   }
 }
 
-.cd-nav-trigger span {
-  /* hamburger menu */
-  background-color: $color-5;
 
-  &::before,
-  &::after {
-    /* upper and lower lines */
-    background-color: $color-5;
-  }
-}
-
-.nav-is-visible .cd-nav-trigger span {
-  /* hide line in the center on mobile when nav is visible */
-  background-color: rgba($color-5, 0);
-
-  &::before,
-  &::after {
-    /* preserve visibility of upper and lower lines - close icon */
-    background-color: rgba($color-5, 1);
-  }
-}
-
-.cd-download {
-  /* download button top-right visible on big devices */
-  background-color: lighten($color-2, 10%);
-
-  .no-touch &:hover {
-    background-color: lighten($color-2, 15%);
-  }
 
   span {
     /* tooltip */
@@ -130,7 +90,7 @@ header {
       border-color: $color-1;
     }
   }
-}
+
 
 /* -------------------------------- 
 
@@ -155,7 +115,7 @@ xTypography
 
 h1,
 h2 {
-  font-family: $secondary-font;
+  
   color: $color-2;
 }
 
@@ -276,11 +236,6 @@ xIcons
 
 -------------------------------- */
 
-.cd-icons li {
-  /* icons size */
-  width: 32px;
-  height: 32px;
-}
 
 /* -------------------------------- 
 
@@ -299,25 +254,6 @@ select {
   }
 }
 
-input[type='text'] {
-  padding: 0.6em 1em;
-  box-shadow: inset 1px 1px rgba(#000, 0.03);
-
-  &.success {
-    border-color: $success;
-    box-shadow: 0 0 6px rgba($success, 0.2);
-  }
-
-  &.alert {
-    border-color: $alert;
-    box-shadow: 0 0 6px rgba($alert, 0.2);
-  }
-
-  &:focus {
-    border-color: $color-1;
-    box-shadow: 0 0 6px rgba($color-1, 0.2);
-  }
-}
 
 input[type='radio'],
 input[type='checkbox'] {

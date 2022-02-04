@@ -1,0 +1,29 @@
+.cd-nav-trigger span {
+    /* hamburger menu */
+    background-color: $color-5;
+
+    &::before,
+    &::after {
+        /* upper and lower lines */
+        background-color: $color-5;
+    }
+}
+
+.nav-is-visible .cd-nav-trigger span {
+    /* hide line in the center on mobile when nav is visible */
+    background-color: rgba($color-5, 0);
+
+    &::before,
+    &::after {
+        /* preserve visibility of upper and lower lines - close icon */
+        background-color: rgba($color-5, 1);
+    }
+}
+
+.cd-download {
+    /* download button top-right visible on big devices */
+    background-color: lighten($color-2, 10%);
+
+    .no-touch &:hover {
+        background-color: lighten($color-2, 15%);
+    }}
