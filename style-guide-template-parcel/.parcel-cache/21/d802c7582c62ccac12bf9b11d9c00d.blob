@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="preconnect" href="f0284d369ac22f4308a77ec0c9977aa7">
+  <link rel="preconnect" href="d7c2b8c89e8843c0697300fa104dd24b" crossorigin="">
+  <link href="fa362184ab79949e7306997f8eaa0ffd" rel="stylesheet">
+  <link href="9797db890ab115df64f322f6ec8c2cdc" rel="stylesheet" type="text/css">
+  <!--We'll change this link to whatever fonts we decide on-->
+
+  <link rel="stylesheet" href="11a54e647e37814b135a6f0ff22b5f24">
+  <!-- Resource style -->
+  <script src="932d90d3eeeec95f906d78b52546ca5e"></script>
+  <!-- Modernizr -->
+  <title>Style Guide | CodyHouse</title>
+</head>
+
+<body>
+  <header>
+    <div class="cd-logo"><img src="183d5a41924f9591938233cbc386b96d" alt="Logo"></div>
+
+    <nav>
+      <ul class="cd-main-nav">
+        <li><a href="#branding">Branding</a></li>
+        <li><a href="#colors">Colors</a></li>
+        <li><a href="#typography">Typography</a></li>
+        <li><a href="#buttons">Buttons</a></li>
+        <li><a href="#icons">icons</a></li>
+        <li><a href="#form">Form</a></li>
+        <li><a href="#navigation">Navigation</a></li>
+      </ul>
+      <!-- cd-main-nav -->
+    </nav>
+
+    <a href="0c1ad1e7b10aa4131796b0da0453a5c6" class="cd-download"><span>Download assets</span></a>
+    <a href="#0" class="cd-nav-trigger">Menu<span></span></a>
+  </header>
+
+  <main>
+    <h1>Style Guide 1.0</h1>
+
+    <section id="purpose" class="cd-purpose">
+      <h2>Purpose/Theme</h2>
+
+      <div class="cd-box">
+        <p>Add description of purpose/theme here.</p>
+      </div>
+    </section>
+
+    <section id="branding" class="cd-branding">
+      <!--Can be removed or edited; won't be using branding, but we MAY be using images-->
+      <h2>Branding</h2>
+
+      <ul>
+        <li class="cd-box">
+          <img src="cfc7b1001ec374c28701c10170ce4d59" alt="Logo version 1">
+        </li>
+        <li class="cd-box">
+          <img src="a487354ddc117034da4a89a43594eb3a" alt="Logo version 2">
+        </li>
+      </ul>
+
+      <ul>
+        <li>
+          <img src="612528cc737e70cec6726a14463599fe" alt="Touch Icon 1">
+        </li>
+        <li>
+          <img src="afaf977833663d57e10fed9071fc27d2" alt="Touch Icon 2">
+        </li>
+        <li><img src="15fc8f67b176cd374ea9d9db0093a507" alt="Favicon 1"></li>
+        <li><img src="6ed3491aae4ca1b8e886911c84742078" alt="Favicon 2"></li>
+      </ul>
+    </section>
+
+    <section id="colors" class="cd-colors">
+      <h2>Colors</h2>
+
+      <ul>
+        <li class="cd-box">
+          <div class="cd-color-swatch"></div>
+        </li>
+
+        <li class="cd-box">
+          <div class="cd-color-swatch"></div>
+        </li>
+
+        <li class="cd-box">
+          <div class="cd-color-swatch"></div>
+        </li>
+
+        <li class="cd-box">
+          <div class="cd-color-swatch"></div>
+        </li>
+
+        <li class="cd-box">
+          <div class="cd-color-swatch"></div>
+        </li>
+      </ul>
+    </section>
+
+    <section id="typography" class="cd-typography">
+      <h2>Typography</h2>
+
+      <div class="cd-box">
+        <h1>Heading, <span></span></h1>
+        <p>
+          Aa - <span></span>. Lorem ipsum dolor sit amet, consectetur
+          adipisicing elit. Omnis voluptate distinctio reprehenderit, autem
+          deleniti ad <a href="#0">voluptatum eaque</a>. Optio ea aperiam nisi
+          distinctio nemo repellat, voluptate fugiat. Quidem neque illum,
+          blanditiis!
+        </p>
+      </div>
+    </section>
+
+    <section id="buttons" class="cd-buttons">
+      <h2>Buttons</h2>
+
+      <div class="cd-box">
+        <button class="btn">Normal</button>
+        <button class="btn btn-success">Success</button>
+        <button class="btn btn-alert">Alert</button>
+        <button class="btn btn-outline">Outline</button>
+      </div>
+    </section>
+
+    
+
+   
+    <section id="navigation" class="cd-navigation">
+      <h2>Navigation</h2>
+      <div class="cd-box">
+        <div>
+          <h3>Primary</h3>
+          <nav class="cd-primary-nav">
+            <ul>
+              <li> <a href="/examples/index" title="This page's source HTML code, not to be modified.">HTML</a></li>
+              <li><a href="e2b73443c21aa97bf559519c333b4047" title="This page's sample CSS, the file you may modify.">CSS</a>
+              </li><li> <a href="823a98281604f3b35a37669caf7b7409" title="Use the contact form to send us your CSS file">Send us a link</a> </li>
+              <li class="next">
+                <a href="/214/page1">
+                  Next Designs <span class="indicator">&rsaquo;</span>
+                </a>
+              </li>
+              <li class="viewall">
+                <a href="556e184f218289f02767a70687d66735" title="View every submission to the Zen Garden.">
+                  View All Designs </a>
+              </li>
+
+            </ul>
+          </nav>
+        </div>
+        <div>
+          <h3>Secondary</h3>
+          <nav class="cd-secondary-nav">
+            <ul>
+					<li class="view-css">
+					  <a href="76d74868bf480873460adb8aad1df89c" title="View the source CSS file of the currently-viewed design.">
+					    View This Design&#8217;s <abbr title="Cascading Style Sheets">CSS</abbr> </a>
+					</li>
+					<li class="css-resources">
+					  <a href="a3f2655ee082a41afee4a4e2c965822c" title="Links to great sites with information on using CSS.">
+					    <abbr title="Cascading Style Sheets">CSS</abbr> Resources </a>
+					</li>
+					<li class="zen-faq">
+					  <a href="fa67a90b6e984cd5d42a1a16abe327db" title="A list of Frequently Asked Questions about the Zen Garden.">
+					    <abbr title="Frequently Asked Questions">FAQ</abbr> </a>
+					</li>
+					<li class="zen-submit">
+					  <a href="823a98281604f3b35a37669caf7b7409" title="Send in your own CSS file.">
+					    Submit a Design </a>
+					</li>
+					<li class="zen-translations">
+					  <a href="211c7eba42acf3c5981880a7d6274b59" title="View translated versions of this page.">
+					    Translations </a>
+					</li>
+            </ul>
+          </nav>
+        </div>
+        <div>
+          <h3>Other Links</h3>
+          <ul>
+            <li>
+              <a href="/221/" class="design-name">Mid Century Modern</a> by <a href="ba43b4aeffd95f59e850d07608f456dc" class="designer-name">Andrew Lohman</a>
+            </li>
+            <li>
+              <a href="/220/" class="design-name">Garments</a> by <a href="5e744058fb31e34221c702ce0a1cc167" class="designer-name">Dan Mall</a>
+            </li>
+            <li>
+              <a href="/219/" class="design-name">Steel</a> by <a href="140a8ee10cd1a66debad24e876fe8c83" class="designer-name">Steffen Knoeller</a>
+            </li>
+            <li>
+              <a href="/218/" class="design-name">Apothecary</a> by <a href="acf438f1066e736409b1e675d6b3298e" class="designer-name">Trent Walton</a>
+            </li>
+            <li>
+              <a href="/217/" class="design-name">Screen Filler</a> by <a href="4cd544a2a56eb5ae3def5b0a02cf13dc" class="designer-name">Elliot Jay Stocks</a>
+            </li>
+            <li>
+              <a href="/216/" class="design-name">Fountain Kiss</a> by <a href="bbde64d18775ebb453aee24e9c85d631" class="designer-name">Jeremy Carlson</a>
+            </li>
+            <li>
+              <a href="/215/" class="design-name">A Robot Named Jimmy</a> by <a href="940fde455838ff5a8b610afec010c2c5" class="designer-name">meltmedia</a>
+            </li>
+            <li>
+              <a href="/214/" class="design-name">Verde Moderna</a> by <a href="a56ff474c1b7fa397994413a70df2062" class="designer-name">Dave Shea</a>
+            </li>
+          </ul>
+          
+        </div>
+      </div>
+    </section>
+
+    <section id="elements" class="cd-elements">
+      <h2>HTML Elements</h2>
+      <div class="cd-box">
+        <p>
+          Styling for lists, figures, alerts, info boxes, etc can be defined
+          here.
+        </p>
+      </div>
+    </section>
+
+    <section id="wireframes" class="cd-wireframes">
+      <h2>Wireframes</h2>
+      <div class="cd-box">
+        <figure>
+          <img src="cfc7bb3948758862d030abed6504af2d" alt="Small screen wireframe">
+          <figcaption>Small screen</figcaption>
+        </figure>
+        <figure>
+          <img src="15ed40e8cde6890fdfa13de2b9ba6bb8" alt="Large screen wireframe">
+          <figcaption>Large screen</figcaption>
+        </figure>
+      </div>
+    </section>
+  </main>
+
+  <script src="109840a1dc8a9cfb9428801d6c53805a"></script>
+</body>
+
+</html>
