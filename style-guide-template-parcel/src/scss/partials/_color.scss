@@ -1,5 +1,140 @@
+/* -------------------------------- 
+
+xColors
+
+-------------------------------- */
+
+// color palette - these colors will be the color swatches of the Colors section
 $color-1: #000000; // black
 $color-2: #082d52; // Dark Blue
 $color-3: #b13df5; // pale purple
 $color-4: #ffffff; // white
 $color-5: #ffec70; // light yellow
+
+
+// additional colors
+
+$success: #6fce72; // green
+$alert: $color-3; // red
+
+body {
+    /* this is the page background */
+    background-color: $color-5; //this is where we'll put the image or gradient, whatever we decide
+  }
+
+  header {
+    background-color: $color-2;
+  }
+
+/* -------------------------------- 
+
+xPatterns 
+
+-------------------------------- */
+
+  .cd-logo {
+    /* logo box style */
+    background-color: $color-1;
+  }
+
+
+  span {
+    /* tooltip */
+    background: $color-1;
+    color: $color-5;
+
+    &::before {
+      /* right arrow color */
+      border-color: $color-1;
+    }
+  }
+
+
+/* -------------------------------- 
+
+xPage title 
+
+-------------------------------- */
+
+main > h1 {
+    color: $color-2;
+  
+    @include MQ(L) {
+      /* title goes into the header on big devices */
+      color: $color-5;
+    }
+  }
+
+  h1,
+h2 {
+  
+  color: $color-2;
+}
+
+
+
+
+section > h2::before {
+    /* number before each section title */
+    color: darken($color-4, 15%);
+  }
+  
+p {
+  color: lighten($color-2, 25%);
+    a {
+      color: $color-1;
+    }
+  }
+
+
+
+
+/* -------------------------------- 
+
+xButtons 
+
+-------------------------------- */
+
+.btn {
+    color: $color-5;
+    background: $color-1;
+    
+    .no-touch &:hover {
+      background: lighten($color-1, 5%);
+    }
+  
+    &.btn-success {
+      background: $success;
+  
+      .no-touch &:hover {
+        background: lighten($success, 5%);
+      }
+    }
+  
+    &.btn-alert {
+      background: $alert;
+  
+      .no-touch &:hover {
+        background: lighten($alert, 5%);
+      }
+    }
+  
+    &.btn-outline {
+      color: $color-1;
+      background: transparent;
+      box-shadow: inset 0 0 0 1px $color-1;
+  
+      .no-touch &:hover {
+        color: $color-5;
+        background: $color-1;
+      }
+    }
+  
+  
+  }
+  
+  .cd-buttons .cd-box:nth-of-type(2) span {
+    /* CSS class name color */
+    color: $color-1;
+  }
+  

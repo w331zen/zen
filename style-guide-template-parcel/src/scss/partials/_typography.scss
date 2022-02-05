@@ -1,8 +1,14 @@
-// fonts
+/* -------------------------------- 
+
+xTypography 
+
+-------------------------------- */
+
+//fonts
 $primary-font: 'EB Garamond',
-serif; //this is the body font. Want it to be serif or sans-serif? I tend to prefer sans-serif.
+serif;
 $secondary-font: 'Arsenal',
-sans-serif; //this is the headline font. It needs to contrast well with the primary font.
+sans-serif;
 
 /* -------------------------------- 
 
@@ -42,6 +48,9 @@ h2 {
 p {
     font-size: 1.4rem;
     line-height: 1.3;
+    a {
+        text-decoration: underline;
+    }
 }
 
 @include MQ(S) {
