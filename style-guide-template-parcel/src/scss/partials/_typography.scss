@@ -51,20 +51,23 @@ p {
     a {
         text-decoration: underline;
     }
+
+    @include MQ(S) {
+        font-size: 1.6rem;
+        line-height: 1.6;
+    }
+    
 }
 
-@include MQ(S) {
-    font-size: 1.6rem;
-    line-height: 1.6;
-}
+
 
 .btn {
     font: {
         size: 1.4rem;
         family: $secondary-font;
     }
-}
 
-@include MQ(S) {
-    font-size: 1.6rem;
+    @include MQ(S) {
+        font-size: 1.6rem;
+    }
 }

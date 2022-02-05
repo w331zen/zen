@@ -959,5 +959,3 @@ section:nth-of-type(10) h2::before {
 .no-csstransitions .cd-select::after {
   display: none;
 }
-
-/*# sourceMappingURL=style-guide.css.map */
