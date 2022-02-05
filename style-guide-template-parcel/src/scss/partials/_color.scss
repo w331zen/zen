@@ -53,7 +53,6 @@ xPatterns
     box-shadow: 0 1px 1px $color-4;
   }
   
-
   span {
     /* tooltip */
     background: $color-2;
@@ -65,6 +64,12 @@ xPatterns
     }
   }
 
+  //the dark paragraphs with glowing borders and white text we talked about
+  p {
+    color: $color-4;
+    background-color: opacify($color-2, 0.25); //I've never actually used opacify before, let me know if it doesn't work
+    box-shadow: 0px 0px 10px $color-4; 
+  }
 
 /* -------------------------------- 
 
