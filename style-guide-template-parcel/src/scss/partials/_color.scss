@@ -37,6 +37,13 @@ xPatterns
     background-color: $color-1;
   }
 
+  .cd-box {
+    /* this is the container of various design elements - i.e. the 2 logo of the branding section */
+    border: 1px solid $color-4;
+    background: $color-5;
+    box-shadow: 0 1px 1px rgba(#000, 0.05);
+  }
+  
 
   span {
     /* tooltip */
@@ -98,7 +105,7 @@ xButtons
 .btn {
     color: $color-5;
     background: $color-1;
-    
+
     .no-touch &:hover {
       background: lighten($color-1, 5%);
     }
