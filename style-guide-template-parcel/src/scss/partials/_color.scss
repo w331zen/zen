@@ -3,6 +3,13 @@
 xColors
 
 -------------------------------- */
+/*I changed some of the colors around, but I can't actually SEE what I'm doing.
+PLEASE change them if they don't contrast correctly or you think they don't
+look like what we talked about!!! 
+-Abi
+*/
+
+
 
 // color palette - these colors will be the color swatches of the Colors section
 $color-1: #000000; // black
@@ -14,12 +21,14 @@ $color-5: #ffec70; // light yellow
 
 // additional colors
 
-$success: #6fce72; // green
-$alert: $color-3; // red
+$success: #13cc19; // green
+$alert: #c70021; // red
 
 body {
     /* this is the page background */
-    background-color: $color-5; //this is where we'll put the image or gradient, whatever we decide
+    background-color: $color-5; 
+    background: linear-gradient(0deg, $color-5 0%, $color-3 33%, $color-2 66%, $color-1 100%);
+    //if the gradient doesn't go top-dark to bottom-light, just swap the colors 5-1, 3-2
   }
 
   header {
@@ -41,18 +50,18 @@ xPatterns
     /* this is the container of various design elements - i.e. the 2 logo of the branding section */
     border: 1px solid $color-4;
     background: $color-5;
-    box-shadow: 0 1px 1px rgba(#000, 0.05);
+    box-shadow: 0 1px 1px $color-4;
   }
   
 
   span {
     /* tooltip */
-    background: $color-1;
-    color: $color-5;
+    background: $color-2;
+    color: $color-4;
 
     &::before {
       /* right arrow color */
-      border-color: $color-1;
+      border-color: $color-4;
     }
   }
 
@@ -64,18 +73,18 @@ xPage title
 -------------------------------- */
 
 main > h1 {
-    color: $color-2;
+    color: $color-4;
   
     @include MQ(L) {
       /* title goes into the header on big devices */
-      color: $color-5;
+      color: $color-4;
     }
   }
 
   h1,
 h2 {
   
-  color: $color-2;
+  color: $color-4;
 }
 
 
@@ -87,9 +96,9 @@ section > h2::before {
   }
   
 p {
-  color: lighten($color-2, 25%);
+  color: lighten($color-1, 25%);
     a {
-      color: $color-1;
+      color: $color-3;
     }
   }
 
@@ -144,4 +153,6 @@ xButtons
     /* CSS class name color */
     color: $color-1;
   }
+
+  
   

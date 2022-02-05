@@ -3,21 +3,26 @@
 xNavigation 
 
 -------------------------------- */
+/*I changed some of the colors around, but I can't actually SEE what I'm doing.
+PLEASE change them if they don't contrast correctly or you think they don't
+look like what we talked about!!! 
+-Abi
+*/
 
 .cd-nav-trigger span {
     /* hamburger menu */
-    background-color: $color-5;
+    background-color: $color-2;
 
     &::before,
     &::after {
         /* upper and lower lines */
-        background-color: $color-5;
+        background-color: $color-3;
     }
 }
 
 .nav-is-visible .cd-nav-trigger span {
     /* hide line in the center on mobile when nav is visible */
-    background-color: rgba($color-5, 0);
+    background-color: rgba($color-2, 0);
 
     &::before,
     &::after {
@@ -40,16 +45,16 @@ xNavigation
     background: $color-2;
 
     li a {
-        color: $color-5;
+        color: $color-3;
         border-color: lighten($color-2, 5%);
     }
 
     @include MQ(M) {
         li a {
-            color: lighten($color-2, 40%);
+            color: lighten($color-3, 40%);
 
             &.selected {
-                color: $color-5;
+                color: $color-4;
                 box-shadow: 0 2px 0 $color-1;
             }
 
