@@ -128,8 +128,7 @@ section > h2::before {
 }
 
 p {
-  font-size: 1.4rem;
-  line-height: 1.4;
+
   color: lighten($color-2, 25%);
 
   a {
@@ -137,10 +136,7 @@ p {
     text-decoration: underline;
   }
 
-  @include MQ(S) {
-    font-size: 1.6rem;
-    line-height: 1.6;
-  }
+
 }
 
 /* -------------------------------- 
@@ -153,10 +149,7 @@ xButtons
   border: none;
   box-shadow: none;
   border-radius: 0.25em;
-  font: {
-    size: 1.4rem;
-    family: $secondary-font;
-  }
+
   color: $color-5;
   padding: 0.6em 2.2em;
   cursor: pointer;
@@ -197,9 +190,7 @@ xButtons
     }
   }
 
-  @include MQ(S) {
-    font-size: 1.6rem;
-  }
+
 }
 
 .cd-buttons .cd-box:nth-of-type(2) span {

@@ -13,6 +13,7 @@ h1,
 h2 {
     font-family: $secondary-font;
 }
+
 h1 {
     font-size: 2.4rem;
     font-weight: 300;
@@ -26,6 +27,7 @@ h1 {
         font-size: 4rem;
     }
 }
+
 h2 {
     font-weight: bold;
     text-transform: uppercase;
@@ -35,4 +37,25 @@ h2 {
         font-size: 1.8rem;
         margin: 1em 0 1.4em;
     }
+}
+
+p {
+    font-size: 1.4rem;
+    line-height: 1.4;
+}
+
+@include MQ(S) {
+    font-size: 1.6rem;
+    line-height: 1.6;
+}
+
+.btn {
+    font: {
+        size: 1.4rem;
+        family: $secondary-font;
+    }
+}
+
+@include MQ(S) {
+    font-size: 1.6rem;
 }
