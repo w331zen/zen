@@ -121,16 +121,6 @@ h2 {
 
 
 
-h2 {
-  font-weight: bold;
-  text-transform: uppercase;
-  margin: 1em 0;
-
-  @include MQ(S) {
-    font-size: 1.8rem;
-    margin: 1em 0 1.4em;
-  }
-}
 
 section > h2::before {
   /* number before each section title */

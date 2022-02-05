@@ -26,3 +26,13 @@ h1 {
         font-size: 4rem;
     }
 }
+h2 {
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 1em 0;
+
+    @include MQ(S) {
+        font-size: 1.8rem;
+        margin: 1em 0 1.4em;
+    }
+}
