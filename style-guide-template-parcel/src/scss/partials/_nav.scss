@@ -26,4 +26,30 @@
 
     .no-touch &:hover {
         background-color: lighten($color-2, 15%);
-    }}
+    }
+}
+
+.cd-main-nav {
+    /* main navigation background color - full screen on small devices */
+    background: $color-2;
+
+    li a {
+        color: $color-5;
+        border-color: lighten($color-2, 5%);
+    }
+
+    @include MQ(M) {
+        li a {
+            color: lighten($color-2, 40%);
+
+            &.selected {
+                color: $color-5;
+                box-shadow: 0 2px 0 $color-1;
+            }
+
+            &:hover {
+                color: $color-5;
+            }
+        }
+    }
+}
