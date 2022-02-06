@@ -159,9 +159,10 @@ xPatterns
 .cd-box {
   /* this is the container of various design elements - i.e. the 2 logo of the branding section */
   border: 1px solid #ffffff;
-  background: #ffec70;
+  background: #082d52;
   -webkit-box-shadow: 0 1px 1px #ffffff;
           box-shadow: 0 1px 1px #ffffff;
+  color: #ffec70;
 }
 
 span {
@@ -176,7 +177,7 @@ span::before {
 }
 
 p {
-  color: #ffffff;
+  color: #ffec70;
   background-color: #082d52;
   -webkit-box-shadow: 0px 0px 10px #ffffff;
           box-shadow: 0px 0px 10px #ffffff;
@@ -594,7 +595,7 @@ header nav {
   right: 0;
   height: 100%;
   width: 80px;
-  background-image: url("../assets/icon-download.svg");
+  background-image: url("../assets/branding/favicon-2.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   display: none;
@@ -977,46 +978,6 @@ section:nth-of-type(10) h2::before {
 }
 
 /* xIcons section - basic style */
-.cd-icons li {
-  display: inline-block;
-  background-position: center center;
-  background-repeat: no-repeat;
-  margin: 1em;
-}
-
-.cd-icons .cd-icon-1 {
-  background-image: url("../assets/icons/icon-1.svg");
-}
-
-.cd-icons .cd-icon-2 {
-  background-image: url("../assets/icons/icon-2.svg");
-}
-
-.cd-icons .cd-icon-3 {
-  background-image: url("../assets/icons/icon-3.svg");
-}
-
-.cd-icons .cd-icon-4 {
-  background-image: url("../assets/icons/icon-4.svg");
-}
-
-.cd-icons .cd-icon-5 {
-  background-image: url("../assets/icons/icon-5.svg");
-}
-
-.cd-icons .cd-icon-6 {
-  background-image: url("../assets/icons/icon-6.svg");
-}
-
-.cd-icons .cd-icon-7 {
-  background-image: url("../assets/icons/icon-7.svg");
-}
-
-.cd-icons .cd-icon-8 {
-  background-image: url("../assets/icons/icon-8.svg");
-}
-
-/* xForm section - basic style */
 .cd-form input[type=text],
 .cd-form .cd-input-wrapper {
   margin: 1em;
